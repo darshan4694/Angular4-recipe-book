@@ -11,5 +11,6 @@ export class AppComponent {
 
   onFeatureSelect(featureSelected: string){
     this.loadedFeature = featureSelected;
+    
   }
 }
