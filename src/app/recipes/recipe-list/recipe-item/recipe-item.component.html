@@ -2,11 +2,11 @@
 class="list-group-item clearfix"
 (click) = "showRecipeDetails()">
   <div class="pull-eft">
-    <h4 class="list-group-item-heading">{{recipe.name}}</h4>
-    <p class="list-group-item-text">{{recipe.description}}</p>
+    <h4 class="list-group-item-heading">{{recipeInList.name}}</h4>
+    <p class="list-group-item-text">{{recipeInList.description}}</p>
   </div>
   <span class="pull-right">
-    <img [src] = "recipe.imagePath" alt="" 
+    <img [src] = "recipeInList.imagePath" alt="" 
                 class="img-responsive" 
                 style="max-height: 50px;">
   </span>
